@@ -1,0 +1,119 @@
+.our_work {
+
+    padding-top: 5.71429rem !important;
+    padding-bottom: 5.71429rem !important;
+
+}
+
+.our_work_header {
+
+    margin-bottom: 5rem !important;
+
+}
+.our_work_header h2 {
+
+    padding-bottom: 0.57143rem !important;
+    margin-bottom: 1.42857rem !important;
+    letter-spacing: 0.03571rem;
+    font-weight: 700;
+    font-size: 0.85714rem !important;
+    border-bottom: solid 5px black !important;
+}
+.our_work_header p {
+
+    color: #a4a4a4;
+    letter-spacing: 0.21429rem;
+    font-size: 0.85714rem !important;
+    text-transform: uppercase!important;
+    margin-bottom: 0!important;    
+}
+
+.work_imgs h4 {
+
+    margin-bottom: 2.14286rem !important;
+
+}
+.work_imgs ul {
+
+    line-height: 1.4 !important;
+    font-weight: 700;
+    font-size: 0.78571rem !important;
+}
+.work_imgs  li {
+
+    margin-bottom: 1.42857rem !important;
+    line-height: 1.4 !important;
+    font-weight: 700;
+    font-size: 0.78571rem !important;
+
+}
+.work_imgs li span {
+
+    cursor: pointer;
+    font-size: 13px;
+    color: #a4a4a4;
+    padding: 0;
+}
+.work_imgs li span span {
+    margin-right: 0.71429rem !important;
+}
+
+
+.top_work_portfolio {
+    height: 996px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+.top_work_inner {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+
+}
+.top_work_inner .work_gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.work_gallery .work_img {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 170px !important;
+    display: inline-block;
+}
+
+.work_img .img_wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.work_img .img_wrapper a {
+
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    outline: 0;
+    margin-bottom: 1.42857rem !important;
+    background-position: center;
+    display: block!important;
+}

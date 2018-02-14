@@ -1,0 +1,74 @@
+.u-header[data-header-fix-effect] {
+    transition: .3s ease;
+}
+.u-header--sticky-top {
+    bottom: auto;
+    top: 0;
+}
+.u-header--sticky-top, .u-header--sticky-bottom {
+    position: fixed;
+}
+.u-header {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 0.92857rem;
+    z-index: 101;
+}
+
+.u-header__section {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .u-header__section:nth-child(1) {
+    z-index: 5;
+  }
+  
+  .u-header__section:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .u-header__section:nth-child(3) {
+    z-index: 3;
+  }
+  
+  .u-header__section:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .u-header__section:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .u-header__sections-container {
+    position: relative;
+    z-index: 1;
+  }
+  .g-theme-bg-gray-light-v1 {
+    background-color: #f9f9f9 !important;
+  }
+  .g-py-30 {
+    padding-top: 2.14286rem !important;
+    padding-bottom: 2.14286rem !important;
+  }
+
+  .g-py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .g-py-0[_ngcontent-c1] {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+
+
+/* Custome CSS */
+
+#js-scroll-nav li {
+
+    padding: 0px 14px;
+}
