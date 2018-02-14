@@ -50,32 +50,17 @@
         <div id="topWorksCubePortfolio" class="top_work_portfolio">
           <div class="top_work_inner">
             <div class="work_gallery">
-              <div class="work_img col-md-3">
-                <div class="img_wrapper">
-                  <a>
-                    <img src="../../assets/img/img3.jpg" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="work_img col-md-3">
-                  <div class="img_wrapper">
-                    <a>
-                      <img src="../../assets/img/img3.jpg" alt="">
-                    </a>
-                  </div>
-                </div>
-                <div class="work_img col-md-3">
-                  <div class="img_wrapper">
-                    <a>
-                      <img src="../../assets/img/img3.jpg" alt="">
-                    </a>
-                  </div>
-                </div>
+              <div class="grid">
+              <div *ngFor="let image of data; let i = index"
+              (click)="gallery.open(i)">
+              <img [src]="image[i].pics[i]"/>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
 
 </section>
