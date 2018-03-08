@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgxCarouselModule } from 'ngx-carousel';
+import 'hammerjs';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -39,7 +40,8 @@ import { SvgTopComponent } from './svg-top/svg.top.component';
     SvgTopComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
