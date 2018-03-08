@@ -1,36 +1,47 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { MainImageComponent } from './main-image/main-image.component';
-import { OurServicesComponent } from './our-services/our-services.component';
-import { OurWorkComponent } from './our-work/our-work.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MainCoverComponent } from './main-cover/main-cover.component';
+import { AboutComponent } from './about/about.component';
+import { VideoContentComponent } from './video-content/video-content.component';
+import { CountersComponent } from './counters/counters.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { ClientsComponent } from './clients/clients.component';
+import { TeamComponent } from './team/team.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { BlogComponent } from './blog/blog.component';
+import { ActionComponent } from './action/action.component';
 import { FooterComponent } from './footer/footer.component';
-import {GalleryModule} from 'ng-gallery';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
+import { LinkHomeComponent } from './link-home/link-home.component';
+import { SvgBottomComponent } from './svg-bottom/svg-bottom.component';
+import { SvgTopComponent } from './svg-top/svg.top.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainImageComponent,
-    OurServicesComponent,
-    OurWorkComponent,
-    ContactUsComponent,
-    FooterComponent
+    MainCoverComponent,
+    AboutComponent,
+    VideoContentComponent,
+    CountersComponent,
+    PricingComponent,
+    ClientsComponent,
+    TeamComponent,
+    TestimonialComponent,
+    BlogComponent,
+    ActionComponent,
+    FooterComponent,
+    LinkHomeComponent,
+    SvgBottomComponent,
+    SvgTopComponent
   ],
   imports: [
-    BrowserModule,
-    HttpModule,
-    BrowserAnimationsModule,
-    GalleryModule.forRoot()
+    BrowserModule
   ],
-  providers: [AppComponent],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

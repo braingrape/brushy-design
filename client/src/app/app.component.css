@@ -1,5 +1,12 @@
-.main_section {
-    background-color: #f9f9f9 !important;
-    padding-bottom: 2.14286rem !important;
-    
+.g-py-0 {
+
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.g-pos-rel {
+    position: relative !important;
+}
+.g-brd-secondary-light-v1 {
+    border-color: #f0f1f3 !important;
 }
