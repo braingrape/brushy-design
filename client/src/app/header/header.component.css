@@ -17,6 +17,13 @@
     background-color: #fff !important;
     position: relative;
 }
+.u-header_sectionn {
+    z-index: 5;
+    padding-top: 0.64286rem !important;
+    padding-bottom: 0.64286rem !important;
+    background-color: #fff !important;
+    position: relative;
+}
 .u-header__logo{
 
     display: inline-block;

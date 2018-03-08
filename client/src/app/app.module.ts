@@ -19,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LinkHomeComponent } from './link-home/link-home.component';
 import { SvgBottomComponent } from './svg-bottom/svg-bottom.component';
 import { SvgTopComponent } from './svg-top/svg.top.component';
+import { WINDOW_PROVIDERS } from './window.service';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,7 @@ import { SvgTopComponent } from './svg-top/svg.top.component';
     BrowserModule,
     NgxCarouselModule
   ],
-  providers: [],
+  providers: [WINDOW_PROVIDERS],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
