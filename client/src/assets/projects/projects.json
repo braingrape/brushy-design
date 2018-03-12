@@ -1,0 +1,30 @@
+{
+  "galleries": [{
+    "title": "2014 Yeti SB66C",
+    "path": "2014-SB66C",
+    "pics": [
+      { "small": "1s.jpg", "medium": "1m.jpg", "large": "1l.jpg" },
+      { "small": "2s.jpg", "medium": "2m.jpg", "large": "2l.jpg" },
+      { "small": "3s.jpg", "medium": "3m.jpg", "large": "3l.jpg" },
+      { "small": "4s.jpg", "medium": "4m.jpg", "large": "4l.jpg" }
+    ]
+  }, {
+    "title": "2017 Pivot Mach 4",
+    "path": "2017-Mach4",
+    "pics": [
+      { "small": "1s.jpg", "medium": "1m.jpg", "large": "1l.jpg" },
+      { "small": "2s.jpg", "medium": "2m.jpg", "large": "2l.jpg" },
+      { "small": "3s.jpg", "medium": "3m.jpg", "large": "3l.jpg" },
+      { "small": "4s.jpg", "medium": "4m.jpg", "large": "4l.jpg" }
+    ]
+  }, {
+    "title": "2012 Santa Cruz Tallboy C",
+    "path": "2012-TallboyC",
+    "pics": [
+      { "small": "1s.jpg", "medium": "1m.jpg", "large": "1l.jpg" },
+      { "small": "2s.jpg", "medium": "2m.jpg", "large": "2l.jpg" },
+      { "small": "3s.jpg", "medium": "3m.jpg", "large": "3l.jpg" },
+      { "small": "4s.jpg", "medium": "4m.jpg", "large": "4l.jpg" }
+    ]
+  }]
+}

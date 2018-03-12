@@ -1,0 +1,8 @@
+.gallery {
+  cursor: pointer;
+  z-index: 1;
+}
+
+.gallery-section {
+  z-index: 101;
+}

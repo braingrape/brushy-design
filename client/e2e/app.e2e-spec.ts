@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('unifytemplate App', () => {
+describe('brushy design App', () => {
   let page: AppPage;
 
   beforeEach(() => {

@@ -7,19 +7,20 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainCoverComponent } from './main-cover/main-cover.component';
 import { AboutComponent } from './about/about.component';
-import { VideoContentComponent } from './video-content/video-content.component';
 import { CountersComponent } from './counters/counters.component';
 import { PricingComponent } from './pricing/pricing.component';
-import { ClientsComponent } from './clients/clients.component';
-import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { BlogComponent } from './blog/blog.component';
-import { ActionComponent } from './action/action.component';
 import { FooterComponent } from './footer/footer.component';
 import { LinkHomeComponent } from './link-home/link-home.component';
-import { SvgBottomComponent } from './svg-bottom/svg-bottom.component';
-import { SvgTopComponent } from './svg-top/svg.top.component';
 import { WINDOW_PROVIDERS } from './window.service';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { NgxGalleryModule } from 'ngx-gallery';
+import { GalleryComponent } from './gallery/gallery.component';
+import { GalleriesService } from './gallery/services/galleries.service';
+import { HttpModule } from '@angular/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProcessesComponent } from './processes/processes.component';
 
 @NgModule({
   declarations: [
@@ -27,24 +28,27 @@ import { WINDOW_PROVIDERS } from './window.service';
     HeaderComponent,
     MainCoverComponent,
     AboutComponent,
-    VideoContentComponent,
     CountersComponent,
     PricingComponent,
-    ClientsComponent,
-    TeamComponent,
     TestimonialComponent,
     BlogComponent,
-    ActionComponent,
     FooterComponent,
     LinkHomeComponent,
-    SvgBottomComponent,
-    SvgTopComponent
+    GalleryComponent,
+    ProcessesComponent,
   ],
   imports: [
     BrowserModule,
-    NgxCarouselModule
+    NgxCarouselModule,
+    NgxPageScrollModule,
+    NgxGalleryModule,
+    HttpModule,
+    NgbModule.forRoot(),
   ],
-  providers: [WINDOW_PROVIDERS],
+  providers: [
+    WINDOW_PROVIDERS,
+    GalleriesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
