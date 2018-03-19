@@ -17,31 +17,39 @@
     background-color: #fff !important;
     position: relative;
 }
-.u-header_sectionn {
+.u-header_section_scrolled {
     z-index: 5;
-    padding-top: 0.64286rem !important;
-    padding-bottom: 0.64286rem !important;
+    padding-top: 0.24286rem !important;
+    padding-bottom: 0.24286rem !important;
     background-color: #fff !important;
     position: relative;
 }
 .u-header__logo{
-
     display: inline-block;
     position: static;
     z-index: 1;
 }
 a{
-
     color: #6ab8ee;
     outline: none;
 }
+
 .u-header__logo-img {
     top: 0;
     left: 0;
     transition: .3s ease;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    /*width: 300px;*/
 }
+
+.u-header__logo-img_scrolled {
+  top: 0;
+  left: 0;
+  transition: .3s ease;
+  height: 40px;
+  /*width: 300px;*/
+}
+
 .g-py-0 {
 
     padding-top: 0 !important;

@@ -21,6 +21,7 @@ import { GalleriesService } from './gallery/services/galleries.service';
 import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProcessesComponent } from './processes/processes.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ProcessesComponent } from './processes/processes.component';
     NgxGalleryModule,
     HttpModule,
     NgbModule.forRoot(),
+    CommonModule
   ],
   providers: [
     WINDOW_PROVIDERS,
